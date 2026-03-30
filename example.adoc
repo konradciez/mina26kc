@@ -1,0 +1,80 @@
+= Dokumentacja projektu
+Jan Kowalski
+v1.0, 2026-03-30
+
+== Wprowadzenie
+
+To jest przykładowa dokumentacja napisana w formacie *AsciiDoc*. 
+AsciiDoc pozwala tworzyć czytelne i dobrze sformatowane dokumenty.
+
+== Instalacja
+
+Aby zainstalować aplikację:
+
+. Pobierz repozytorium:
++
+[source,bash]
+----
+git clone https://example.com/projekt.git
+----
+
+. Przejdź do katalogu:
++
+[source,bash]
+----
+cd projekt
+----
+
+. Uruchom instalację:
++
+[source,bash]
+----
+make install
+----
+
+== Użycie
+
+Przykładowe użycie:
+
+[source,bash]
+----
+projekt --help
+----
+
+== Funkcjonalności
+
+* Łatwa konfiguracja
+* Wysoka wydajność
+* Obsługa wielu platform
+
+== Przykładowa tabela
+
+|===
+| Funkcja        | Opis
+
+| Logowanie      | Umożliwia dostęp do systemu
+| Rejestracja    | Tworzenie nowego konta
+| Eksport danych | Zapis danych do pliku
+|===
+
+== Obraz
+
+image::example.png[Przykładowy obraz, width=300]
+
+== Kod źródłowy
+
+[source,python]
+----
+def hello():
+    print("Hello, AsciiDoc!")
+----
+
+== Uwagi
+
+NOTE: To jest przykładowa notatka.
+
+WARNING: To jest ostrzeżenie.
+
+== Podsumowanie
+
+AsciiDoc to potężne narzędzie do tworzenia dokumentacji technicznej.
